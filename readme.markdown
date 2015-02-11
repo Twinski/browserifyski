@@ -1,10 +1,10 @@
-# browserifyski
+# Browserifyski
 
 Use Browserify + Watch at ease. It's a breeze!
 
 
 
-# install
+# Install
 
 With [npm](http://npmjs.org) do:
 
