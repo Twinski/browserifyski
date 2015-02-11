@@ -17,15 +17,15 @@ npm install browserifyski
 
 var browserifyski = require('browserifyski');
 browserifyski(
-   [{
-       source: './assets/app.js',
-       output_dir: './assets/js',
-       output: 'app.bundle.js',
-       min: true
-   }],
-   {
-       min: false
-   }
+	[{
+		source: './assets/app.js',
+		output_dir: './assets/js',
+		output: 'app.bundle.js',
+		min: true
+	}],
+	{
+		min: false
+	}
 );
 
 
