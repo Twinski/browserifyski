@@ -1,0 +1,43 @@
+{
+
+  
+    "name": "browserifyski",
+    "version": "0.0.1",
+    "description": "Browserify + watch in a clean way",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Twinski/browserifyski.git"
+    },
+    "keywords": [
+        "browserify",
+        "watch",
+        "watchify"
+    ],
+    "author": "Yordi Uytersprot <yordi@twinski.be> (http://www.twinski.be/)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Twinski/browserifyski/issues"
+    },
+    "homepage": "https://github.com/Twinski/browserifyski",
+
+    "devDependencies": 
+    {
+        "underscore": "1.7.0",
+
+        "gulp": "3.8.10",
+        "gulp-uglifyjs": "0.5.0",
+
+        "browserify": "3.46.1",
+        "vinyl-buffer": "1.0.0",
+        "vinyl-source-stream": "1.0.0",
+        "watchify": "0.6.4"
+    }
+
+
+
+}
+
