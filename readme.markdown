@@ -15,6 +15,7 @@ npm install browserifyski
 
 # Usage
 
+``` js
 var browserifyski = require('browserifyski');
 browserifyski(
 	[{
@@ -27,6 +28,8 @@ browserifyski(
 		min: false
 	}
 );
+```
+
 
 
 browserifyski takes two arguments:
