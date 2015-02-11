@@ -13,9 +13,13 @@ var buffer = require('vinyl-buffer');
 
 
 
-var browserifyski = function( files, options )
-{
 
+
+
+
+
+module.exports = function( files, options )
+{
 
     var options = options || {
         min: false
@@ -31,8 +35,14 @@ var browserifyski = function( files, options )
         browserifyShare( file.source, file.output_dir, file.output, minify );        
     }
 
-
 }
+
+
+
+
+
+
+
 
 
 
@@ -132,24 +142,27 @@ function getDateTime()
 
 
 
+/*
+
+    // USAGE
+    var browserifyski = require('browserifysky');
+    browserifyski(
+        [{
+            source: './assets/app.js',
+            output_dir: './assets/js',
+            output: 'app.bundle.js',
+            min: true
+        }],
+        {
+            min: false
+        }
+    );
+
+*/
 
 
 
 
-
-browserifyski(
-
-    [{
-        source: './assets/app.js',
-        output_dir: './assets/js',
-        output: 'app.bundle.js',
-        min: true
-    }],
-
-    {
-        min: false
-    }
-);
 
 
 
